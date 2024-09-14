@@ -1,3 +1,9 @@
+print(list(b'bytes object'))
+# [98, 121, 116, 101, 115, 32, 111, 98, 106, 101, 99, 116]
+
+print(list('bytes object'))
+# ['b', 'y', 't', 'e', 's', ' ', 'o', 'b', 'j', 'e', 'c', 't']
+
 # 字符串大小写转换
 str.upper()
 str.lower()
